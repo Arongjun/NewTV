@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
     });
 
     // 构建AI推荐的系统提示
-    const systemPrompt = `你是NewTV网站里的一个专业的推荐助手。请根据用户的描述，判断用户需要的是影视剧集推荐还是YouTube视频推荐。
+    const systemPrompt = `你是ArongTV网站里的一个专业的推荐助手。请根据用户的描述，判断用户需要的是影视剧集推荐还是YouTube视频推荐。
 
 当前系统时间：${timeString}
 你可以根据当前时间（包括日期、时间、星期）来提供更贴合时间场景的推荐。
